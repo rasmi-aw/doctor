@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-login',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  login: string
+  password: string
+
+  constructor() {
+    this.login = ""
+    this.password = ""
+  }
 }
